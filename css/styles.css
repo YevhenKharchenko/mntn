@@ -1,12 +1,16 @@
 body {
   color: #ffffff;
-  background-color: #0b1d26;
+  background: #0b1d26;
   font-family: "Red Hat Display", sans-serif;
-  /* background-image: url(../images/VG-min.png), url(../images/MG-min.png),
+  background-image: linear-gradient(
+      330deg,
+      rgba(11, 29, 38, 0) 31.06%,
+      #0b1d26 108.93%
+    ),
+    url(../images/VG-min.png), url(../images/MG-min.png),
     url(../images/HG-min.png);
   background-repeat: no-repeat;
-  background-position: top 768px center, top 464px center, top 0 center;
-  background-size: ; */
+  background-position: center, top 768px center, top 464px center, top 0 center;
 }
 
 h1,
@@ -118,7 +122,6 @@ button {
 
 .hero > .container {
   display: flex;
-  justify-content: space-between;
   padding-right: 50px;
 }
 
@@ -159,6 +162,7 @@ button {
 
 .hero-main-container {
   width: 1000px;
+  margin-left: 396px;
 }
 
 .hero-hiking-text {
@@ -215,6 +219,7 @@ button {
   gap: 40px;
   padding-top: 55px;
   position: relative;
+  margin-left: auto;
 }
 
 .hero-list-container::after {
@@ -261,6 +266,7 @@ button {
 }
 
 .hiker-background-container {
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 31.38%);
 }
 
 .hiker-background-container > .container {
@@ -317,7 +323,7 @@ button {
   font-size: 64px;
   font-weight: 600;
   line-height: normal;
-  width: 575px;
+  width: 585px;
   margin-bottom: 27px;
 }
 
